@@ -147,7 +147,7 @@ public class MSButton
     public void draw () 
     {    
         if (flagged)
-            fill(0);
+            fill(#24A9FF);
          else if( clicked && mines.contains(this) ) 
              fill(255,0,0);
         else if(clicked)
